@@ -7,8 +7,9 @@
 ## Stack
 
 - TypeScript
-  - tsc
-  - ts-node-dev
-  - swc
+  - tsc for type checking
+  - ts-node-dev for development server
+  - swc for production start
 - GraphQL Yoga server
 - Pothos schema builder
+- Railway.app for deployment
