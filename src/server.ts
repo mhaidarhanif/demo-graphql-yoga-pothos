@@ -10,7 +10,7 @@ builder.queryType({
         name: t.arg.string(),
       },
       resolve: (parent, { name }) => {
-        return `Hello, ${name || "World"}`;
+        return `Hello, ${name || "World!!!"}`;
       },
     }),
   }),
