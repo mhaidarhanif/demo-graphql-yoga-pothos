@@ -1,0 +1,32 @@
+{
+  "name": "demo-graphql-yoga-v2",
+  "version": "0.1.0",
+  "description": "Demo GraphQL Yoga v2",
+  "author": "M Haidar Hanif <npm@mhaidarhanif.com>",
+  "license": "MIT",
+  "keywords": [
+    "demo",
+    "graphql",
+    "yoga"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development ts-node-dev --exit-child --respawn src/main.ts",
+    "start": "ts-node src/main.ts",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@graphql-yoga/node": "2.13.13",
+    "@pothos/core": "3.22.5",
+    "graphql": "16.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.8.0",
+    "cross-env": "7.0.3",
+    "ts-node": "10.9.1",
+    "ts-node-dev": "2.0.0",
+    "typescript": "4.8.4",
+    "vitest": "0.23.4"
+  }
+}
